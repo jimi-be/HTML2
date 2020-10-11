@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jᗷ My personal site</title>
+</head>
+<body>
+    <table cellspacing="20">
+        <tr>
+            <td><img src="images/plane.jpg" alt="Oops"></td>
+            <td><h1>Jimijames</h1>
+                <p><em>Founder and CEO of <strong>Nothing Really</strong></em></p>
+                    <p>Mechanical Engineer who needs to learn web dev for a hobby/business website.
+                    I have chosen the Udemy course: <strong>The Complete 2020 Web Development Bootcamp</strong>
+                    by <em>Dr. Angela Wu</em> as my first course in web dev. Future plans are to finish 
+                    <strong>CS50</strong> and more detailed courses on HTML/CSS/Javascript or ???
+                </p></td>
+        </tr>
+    </table>       
+    <hr>
+    <h3>Education</h3>
+    <ul>
+        <li>Umass Dartmouth</li>
+        <li>ECAC</li>
+        <li>NCC</li>
+        <li>Udemy</li>
+        <li>Edx</li>
+    </ul>
+    <hr>
+    <h3>Work Experience</h3>
+    <table cellspacing="10">
+        <head>
+            <tr>
+                <th>Dates</th>
+                <th>Work</th>
+            </tr>
+        </head>
+        <tbody>
+            <tr>
+                <td>2000-Pres.</td>
+                <td>Schneider Electric</td>
+            </tr>
+            <tr>
+                <td>1997-2000</td>
+                <td>Torrington Research Company</td>
+            </tr>
+        </tbody>                
+    </table>
+    <hr>
+    <!-- 1st attempt. with cellspacing-->
+    <h3>Skills (with single table)</h3>
+    <table cellspacing="10">
+        <tr>
+            <td>MCAD</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>Photography</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Flying</td>
+            <td>⭐⭐⭐⭐</td>
+            <td>Programming</td>
+            <td>⭐⭐</td>
+        </tr>
+    </table>
+    <hr><hr>
+    <!-- nested table attempt, no cellspacing, with border -->
+    <h3>Skills (with nested tables)</h3>
+    <table border ="1">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>MCAD</td>
+                        <td>⭐⭐⭐⭐⭐</td>  
+                    </tr>
+                    <tr>
+                        <td>Photography</td>
+                        <td>⭐⭐⭐⭐</td>  
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Flying</td>
+                        <td>⭐⭐⭐⭐</td>  
+                    </tr>
+                    <tr>
+                        <td>Programming</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <p>Note: tables are not the most efficient for "skills" section formatting, but only for
+        learning about tables
+    </p>
+    <hr>
+        <a href="hobbies.html">My Hobbies</a>
+        <br>
+        <a href="contact.html">Contact</a>
+    <hr>
+</body>
+</html>
